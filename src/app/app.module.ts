@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { TripsComponent } from './trips/trips.component';
+import { AdministratorComponent } from './administrator/administrator.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TripsComponent
+    TripsComponent,
+    AdministratorComponent
   ],
   imports: [
     BrowserModule
