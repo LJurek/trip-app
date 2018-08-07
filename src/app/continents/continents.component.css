@@ -1,0 +1,14 @@
+table tr:hover {
+  background-color: #BBD8DC !important;
+  color: white;
+}
+
+.selected {
+  background-color: rgb(220, 213, 207) !important;
+  color: white;
+}
+
+table td:hover {
+  background-color: #BBD8DC !important;
+  color: white;
+}

@@ -1,8 +1,6 @@
-export class Trip {
-    name:String;
-    price:number;
-}
-export class Admin{
+
+export class Trip{
+    id:Number;
     airportFrom:String;
     airportTo:String;
     hotelTo:String;

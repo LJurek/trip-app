@@ -14,9 +14,7 @@ export class TripsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.trip = new Trip();
-this.trip.name = 'Grecja Twoich marzeń';
-this.trip.price = 1000;
+    
   }
 
 }

@@ -1,0 +1,17 @@
+<div class="container">
+        <h2>My Trips</h2>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Id</th>
+              <th scope="col">Name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let continent of continentsList">
+              <td>{{continent.id}}</td>
+              <td>{{continent.name}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
