@@ -10,8 +10,6 @@ export class ContinentsComponent implements OnInit {
   constructor(private http:HttpClient) { }
   
   public continentsList = [];
-  id: number = 0;
-  name: String ='';
 
   ngOnInit() {
 
