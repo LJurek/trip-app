@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { PurchasComponent } from './purchas/purchas.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ContinentsComponent } from './continents/continents.component';
+import { TripFormComponent } from './trip-form/trip-form.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ContinentsComponent } from './continents/continents.component';
     LastMinuteComponent,
     ContactComponent,
     PurchasComponent,
-    ContinentsComponent
+    ContinentsComponent,
+    TripFormComponent
   ],
   imports: [
     BrowserModule,
