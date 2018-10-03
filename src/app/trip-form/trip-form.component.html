@@ -1,3 +1,27 @@
-<p>
-  trip-form works!
-</p>
+<div class="row">
+    <div class="col-md-8 order-md-1">
+        <h4 class="mb-3">New Trip</h4>
+        <form class="needs-validation" novalidate>
+            <div class="row">
+                <div class="col-md-5 mb-3">
+                    <label for="continent">Continent</label>
+                    <select class="custom-select d-block w-100" id="continent" required>
+            <option value="">Choose...</option>
+            <option>Europa</option>
+            <option>Afryka</option>
+            <option>Ameryka Północna</option>
+            <option>Ameryka Połódniowa</option>
+            <option>Azja</option>
+            <option>Australia</option>
+            <option>Grenlandia</option>
+            <option>Antarktyda</option>
+          </select>
+                    <div class="invalid-feedback">
+                        Please select a valid continent.
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>

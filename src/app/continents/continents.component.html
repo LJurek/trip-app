@@ -1,17 +1,23 @@
 <div class="container">
-        <h2>My Trips</h2>
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th scope="col">Id</th>
-              <th scope="col">Name</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr *ngFor="let continent of continentsList">
-              <td>{{continent.id}}</td>
-              <td>{{continent.name}}</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+    <h2>My Trips</h2>
+    <div>
+        <label>New Continent:
+      <input #continentName />
+    </label>
+        <button (click)="add(continentName.value); continentName.value=''">
+      add
+    </button>
+    </div>
+    <table class="table table-striped">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Delete</th>
+        </tr>
+        <tr *ngFor="let continent of continentsList">
+            <td>{{continent.id}}</td>
+            <td>{{continent.name}}</td>
+            <td><input #continentId type="button" class="btn btn-denger" (click)="deleteContin(continentId.value = continent.id)" value="x"></td>
+        </tr>
+    </table>
+</div>

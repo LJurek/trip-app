@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Trip} from "../trip";
+import {Trip} from '../trip';
 
 @Component({
   selector: 'app-trips',
@@ -14,7 +14,6 @@ export class TripsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    
   }
 
 }

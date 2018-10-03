@@ -10,7 +10,6 @@ export class LastMinuteComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    
   }
 
 }
